@@ -1,0 +1,92 @@
+body{
+    background-color: #04A1BF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.text-1{
+    color: #EDCB70;
+    font-weight: bold;
+}
+
+.text-2{
+    color: #41CE88;
+    font-weight: bold;
+}
+
+.text-3{
+    color: #036E82;
+    font-weight: bold;
+}
+
+button{
+    background-color: #01778C;
+    border-radius: 5px; 
+    border: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#todo-input{
+   width: 500px;
+   height: 30px;
+   border-radius: 5px;
+   font-weight: bold;
+   padding-left: 10px;
+}
+
+input::-webkit-input-placeholder{
+    font-weight: bold;
+}
+
+.fas{
+    padding: 10px 15px ;
+   
+}
+
+
+
+ button:hover{
+    color: #EDCB70;
+    
+    background-color: rgba(73, 179, 195, 0.9);
+    transition: all 1s ease;
+}
+
+.task{
+    background-color: #4FB9CC ;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 3px #035F70;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.task-container{
+    margin-right: 50px;
+}
+
+.x-button{
+    height: 25px;
+    width: 25px;
+}
+
+li:hover{
+    background-color: rgba(73, 179, 195, 0.9);
+}
